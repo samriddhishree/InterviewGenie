@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InterviewGenie</title>
+    <style>
+      li {
+        font-size: 13.3px;
+      }
+      p {
+        font-size: 13.3px;
+      }
+      code {
+        font-size: 15.3px;
+        background-color: white;
+        font-family: 'courier new';
+        border-radius: 5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+      #readme {
+        margin-left: 2vw;
+        margin-right: 3vw;
+      }
+    </style>
+  </head>
+  <body style='font-family: Verdana; background-color: aliceblue; line-height: 1.9'>
+    <div id='readme'>
+      <h1 id="InterviewGenie">InterviewGenie</h1>
+      <p>InterviewGenie is an amazon alexa skill that helps prepare you for an interview. InterviewGenie is A.I. powered, and gives you practice questions that you may get in an interview. Because it is A.I. powered, it often generates things you can not simply find by searching for "common interview questions". This both prepares you for questions similar to that one, and for improvising an answer on the spot. InterviewGenie has many important functionalities, such as auto-generated, unique questions, and sample answers. InterviewGenie is great for preparing for job interviews of any kind, and can elevate your performance.</p>
+      <h3 id="commands">Commands:</h3>
+      <ul>
+        <li><code>interview me</code> or <code>interview me on general</code> - get general interview questions</li>
+        <li><code>interview me on {topic}</code> - get technical, field-related interview questions.</li>
+        <li>Example:<code>interview me on biology</code> <ul>
+        <li>"Describe the process of glycolysis. Start your response with the word ANSWER. To get an example, say SAMPLE."</li></ul></li>
+        <li><code>help</code> - get list of commands</li>
+        <li><code>sample</code> - get a sample answer of the most recent question.</li>
+        <li><code>sample {phrase}</code> - get a sample answer of the phrase</li>
+        <li>Example: <code>sample why are you passionate about wildlife biology</code><ul>
+        <li>"I am passionate about wildlife biology because it affords me the opportunity to work outside, learn more about the natural world, and be of service to others. It is one way that I can to work towards accomplishing my goals and reaching my service potential."</li></ul></li>
+        <li><code>skip</code> - skip an interview questions</li>
+        <li><code>stop</code> - end the interview practice session.</li>
+        <li><code>next</code> - similar to skip, it moves on to the next question, especially used after <code>sample</code> without answering.</li>
+        <li><code>repeat</code> - repeat question</li>
+        <li><code>feedback</code> - get feedback on your answer to the previous question</li>
+      </ul>
+    </div>
+  </body>
+</html>
