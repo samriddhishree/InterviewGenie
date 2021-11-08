@@ -63,6 +63,6 @@ app.use(
 app.post("/", adapter.getRequestHandlers());
 
 // Start skills handler.
-app.listen(443, () => {
+app.listen(1337, () => {
 	console.info("Alexa Skills deployed.");
 });
